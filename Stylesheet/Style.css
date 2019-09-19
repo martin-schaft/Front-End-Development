@@ -1,0 +1,188 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: orange;
+    transition: all .3s ease .1s;
+}
+
+img{
+    padding: 10px;
+}
+
+header{
+    background-color: rgb(33, 36, 43);
+    border-bottom: solid 1px red;
+}
+
+@media only screen and (max-width: 400px) {
+  nav__Items,
+  nav {
+    flex-direction: column;
+  }
+  nav__Items--right {
+    margin-left: 0;
+  }
+}
+
+footer {
+    border-top: solid 2px red;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgb(33, 36, 43);
+    font-size: 10px;
+    color:white;
+}
+
+section {
+    display: flex;
+}
+
+/*plagiaat https://codepen.io/patrickkunka/pen/GECBF*/
+div, ul, li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#Grid{
+    padding: 10px;
+      margin-bottom: 40px;
+      text-align: justify;
+      font-size: 0.1px;
+}
+
+#Grid li{
+  display: inline-block;
+  width: 23%;
+  padding-top: 23%;
+  margin-bottom: 2.5%;
+
+}
+
+#Grid:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+
+
+/* -- MEDIA QUERIES DEFINING RESPONSIVE LAYOUTS -- */
+
+/* 3 COL */
+
+@media (max-width: 800px){
+  #Grid li{
+    width: 31%;
+    padding-top: 31%;
+    margin-bottom: 3%;
+  }
+}
+
+/* 2 COL */
+
+@media (max-width: 600px){
+  #Grid li{
+    width: 48%;
+    padding-top: 48%;
+    margin-bottom: 4%;
+  }
+}
+
+/* SINGLE COL */
+
+@media (max-width: 400px){
+  #Grid li{
+    width: 100%;
+    padding-top: 100%;
+    margin-bottom: 5%;
+  }
+}
+
+
+.li1{
+    background-image: url(../csm_12132018_afl2_Nicole_taart2_760a15fb3f.jpg);
+    background-size: cover;
+}
+.li2{
+    background-image: url(../csm_12132018_afl2_Vincent_Taart2_2bc0e7b6a6.jpg);
+    background-size: cover;
+}
+
+.li3{
+    background-image: url(../csm_jan_hagel_square_Maarten_1_410e491cc9.jpg);
+    background-size: cover;
+}
+
+.li4{
+    background-image: url(../csm_Schwarzwalderkirschtorte-guido_82059c7b67.jpg);
+    background-size: cover;
+}
+
+.li5{
+    background-image: url(../csm_01142019_hanneke_spektakel_11d45e2f6e.jpg);
+    background-size: cover;
+}
+
+.li6{
+    background-image: url(../csm_12272018_KimG_spektakel_0b219e1e16.jpg);
+    background-size: cover;
+}
+.li7{
+    background-image: url(../csm_Marcel_parthenomnom4_38875d516f.jpg);
+    background-size: cover;
+}
+.li8{
+    background-image: url(../csm_bolussen_kaasvlinders_volkorenbollen_Rutger_beda4142cc.png);
+    background-size: cover;
+}
+
+.li9{
+    background-image: url(../csm_Soesjes_Maartje_eb9ab2162b.png);
+    background-size: cover;
+}
+
+h2{
+    color: black;
+    font-size: 20px;
+    margin: auto;
+}
+
+h3{
+    color: darkgray;
+    font-size: 16px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
